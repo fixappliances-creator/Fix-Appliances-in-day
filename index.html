@@ -131,7 +131,7 @@
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script>
     (function() {
-      emailjs.init("osa9qiKarQBE47aQ8"); // Replace with your EmailJS public key
+      emailjs.init("-iBbypmH03IbcZIA2"); // Replace with your EmailJS public key
     })();
 
     document.getElementById("serviceForm").addEventListener("submit", function(event) {
@@ -152,7 +152,7 @@
         complaint: document.getElementById("complaint").value
       };
 
-      emailjs.send("service_48u60d8", "template_ta26nre", templateParams)
+      emailjs.send("service_197xy3j", "template_ta26nre", templateParams)
         .then(() => {
           document.getElementById("serviceForm").style.display = "none";
           document.getElementById("success").style.display = "block";
@@ -163,3 +163,4 @@
   </script>
 </body>
 </html>
+
